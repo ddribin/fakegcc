@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" = "--version" ]; then
+   echo 'gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0'
+   exit 0
+fi
+
+exit 1
